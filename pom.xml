@@ -22,7 +22,11 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
+    <properties>
+        <junit.jupiter.version>5.10.1</junit.jupiter.version>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+    </properties>
     <build>
         <plugins>
             <plugin>
